@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Guess Image Quiz</string>
+    <string name="action_settings">Settings</string>
+    
+     <!-- Replace you Admob Unit - id here -->
+     <string name="admob_banner">ca-app-pub-1891613648627380/4564970550</string>
+     <string name="admob_intersitital">ca-app-pub-1891613648627380/8995170153</string>
+    
+   
+    <!-- This will true if you testing app when you publish on play store make if fasle -->
+     <bool name="istestmode">true</bool>
+     
+     <!-- set you service URL plz don't foget otherwise it will be get our question database. For Four Option Question-->
+     <string name="question_bank_url">http://arkayapps.com/guessimagequiz/getquestionwithoptionbylevelid.php?levelid=</string>
+     <!-- Please set your server image url path becasue webservice only sent image name. And this will add before image name. -->
+     <string name="question_image_path">http://www.arkayapps.com/guessimagequiz/image/quizimage</string>
+    
+     <string name="icon_url">https://lh3.googleusercontent.com/-b1TuguNNi70/VNiGzHuSzWI/AAAAAAAAAq0/oBG2QSViXHc/s512/icon1.png</string>
+  
+    <string name="level">Level </string>
+    <string name="finished">Finished..</string>
+    <string name="not_completed">Not completed plz try again.</string>
+    <string name="sec">Sec.</string>
+    <string name="next_level_not_open">Next Level Not open</string>
+    <string name="play_again_this_level">Go to Home</string>
+     <string name="guess_image_quiz">Guess Image Quiz</string>
+     <string name="play_next">Play Next</string>
+     <string name="play_again">Play again</string>
+    <string name="play_quiz">Play Quiz</string>
+    <string name="this_level_score">This Level Score</string>
+    <string name="total_score">Total Score</string>
+    <string name="home">Home</string>
+    
+    
+    <string name="sign_in_why">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="achievement">Achievement</string>
+ 	<string name="you_are_signed_in">You are signed in with Google.</string>
+ 	<string name="sign_out">Sign out</string>
+ 	
+ 	<string name="achievements_not_available">Please sign in to view achievements.</string>
+    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+   
+ 
+    <string name="sound_effect">Sound Effect</string>
+    <string name="vibration">Vibration</string>
+    <string name="setting">Settings</string>
+    <string name="share_me">Share Me</string>
+    <string name="rate_me">Rate Me</string>
+
+    
+    <string name="loading_from_cloud">Loading your progress.</string>
+    
+    
+</resources>

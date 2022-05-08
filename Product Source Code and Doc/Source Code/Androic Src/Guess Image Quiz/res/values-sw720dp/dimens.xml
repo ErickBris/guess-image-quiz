@@ -1,0 +1,66 @@
+<resources>
+    
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+
+    <dimen name="menu_button_top_margin">20dp</dimen>
+    <dimen name="menu_button_layout_width">500dp</dimen>
+    <dimen name="next_prev_button_width_height">100dp</dimen>
+    <dimen name="next_prev_left_right_margin">10dp</dimen>
+    <dimen name="question_left_right_margin">10dp</dimen>
+    <dimen name="right_wronge_height">40dp</dimen>
+    <dimen name="top_margin_question">120dp</dimen>
+    <dimen name="top_margin_image_question">40dp</dimen>
+    <dimen name="top_margin_option">30dp</dimen>
+    <dimen name="coin_image_size">60dp</dimen>
+    <dimen name="show_question_top_margin">50dp</dimen>
+    
+    <dimen name="setting_left_right_margin">20dp</dimen>
+    <dimen name="setting_left_top_margin">30dp</dimen>
+   	<dimen name="setting_first_row_top_margin">80dp</dimen>
+   	<dimen name="setting_toggle_button_width">240dp</dimen>
+   
+   	<dimen name="top_level_text_size">50sp</dimen>
+   	<dimen name="left_rigth_margin_score_button">20dp</dimen>
+   	<dimen name="option_left_right_margin">10dp</dimen>
+   	<dimen name="option_button_padding">10dp</dimen>
+    
+   	<dimen name="lbl_settin_text_size">36sp</dimen>
+    
+   	 <!-- Game OVer Screen -->
+   	<dimen name="lbl_score">100sp</dimen>
+   	
+   	<!-- End Game OVer -->
+   	
+    <!-- Button -->
+    <dimen name="button_border">3dp</dimen>
+    <dimen name="button_redious">10dp</dimen>
+    <dimen name="button_peding">20dp</dimen>
+    <!-- End Button -->
+   
+     <!-- Question Background -->
+    <dimen name="background_border">4dp</dimen>
+    <dimen name="background_redious">30dp</dimen>
+    <dimen name="background_peding">30dp</dimen>
+    <dimen name="button_peding_half">15dp</dimen>
+    <!-- End Question Background -->
+    
+   
+   <!-- TextSize -->
+   	<dimen name="text_size_question_index">44sp</dimen>
+   	<dimen name="text_size_level_no">40sp</dimen>
+   	<dimen name="text_size_question_right_wronge">40sp</dimen>
+   	<dimen name="question_text_size">36sp</dimen>
+   	<dimen name="answare_option_text_size">36sp</dimen>
+   	<dimen name="dialog_heading_text_size">32sp</dimen>
+   	<dimen name="score_top_margin">30dp</dimen>
+   	<dimen name="setting_toggle_button_text_size">40sp</dimen>
+   	<dimen name="setting_button_text_size">40sp</dimen>
+   	<dimen name="setting_header_text_size">50sp</dimen>
+   	<dimen name="home_menu_button_text_size">44sp</dimen>
+   	
+   	<dimen name="home_page_title_bottom_margin">20dp</dimen>
+   	
+   	<dimen name="picture_img_size">250dp</dimen>
+   
+</resources>

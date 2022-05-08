@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Guess Image Quiz</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Guess Image Quiz&rdquo; Documentation by &ldquo;arkay apps&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Guess Image Quiz&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 11/11/2014<br>
+					By: Arkay Apps<br>
+					Email: <a href="mailto:support@arkayapps.com">support@arkayapps.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0"> &nbsp;&nbsp;&nbsp;&nbsp;<b>Guess Image Quiz</b> is android picture and logo type of quiz app with single question with four options. Now you can build logo and picture guess quiz app just adding question and picture and all remaining task will does app.  
+<br>
+               <b><ul type="circle">Feature:</b>
+               <li>Quiz play with four option</li>
+               <li>Implement Google Game Service with Leaderboard and Achievement.</li>
+			   <li>Save All Score Data on Google Cloud if user uninstall app or change device score will automatically sync on new device.</li>
+               <li>Display Right Answer when on wrong answer.</li>
+               <li>Google Admob with Google service API.</li>
+			  
+               <li>PHP admin panel for manage questions.</li>
+               <li>Easy and Attractive design.</li>
+               <li>Full PHP Source Code for service side manage quiz.</li>
+               <li>Provide all PSD file for re-screen.</li>
+               
+               <li>Play unlimited level </li>
+               <li>Share score on social network after level completed.</li>
+               <li>Full Document of project that explain step by step process.</li>
+               </ul>
+                 Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+        <hr>
+        <p><b>Guess Image Quiz</b><br>
+        <p>Create your custom picture guess quiz app. it's Too simple just add question and picure it and publish that's it.   </p>
+        <p><b>Guess Image Quiz</b> is android picture quiz app with single question with four option. Now you can build picture or logo quiz app just adding question all remaining task will does app.</p>
+        </hr>
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">AdMob Change</a></li>
+			<li><a href="#cssFiles">PHP services setting At Android Code</a></li>
+			<li><a href="#javascript">Google Play Game Service:</a></li>
+			<li><a href="#psdFiles">For cloud storage please follow this step</a></li>	
+            <li><a href="#php">PHP Admin</a></li>
+			<li><a href="#video">Import project on Eclipse </a></li>
+			<li><a href="#sqlite">Add/Update/Delete SQLite Database </a></li>
+		</ol>		
+		<hr>		
+		<h3 id="htmlStructure"><strong>A) AdMob Change:</strong> - <a href="#toc">top</a></h3>
+		<p> &nbsp;&nbsp;&nbsp;&nbsp;1. Right now admob integration you have to just change yon ad-unit id replace your id.<br>
+        <img src="assets/images/admob_id.png">
+	        <p>&nbsp;&nbsp;&nbsp;&nbsp;2. This parameter is set true if you are testing app set false when you publish app on google play.
+        </p>
+        <img src="assets/images/admob.png"><br></hr>
+  
+      <hr>
+<h3 id="cssFiles"><strong>B) PHP services setting At Android Code </strong> - <a href="#toc">top</a></h3>
+
+	
+
+	<p><img src="assets/images/service URL.png"><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please set here your URL where you setup PHP admin panel.
+	</p>  
+    <p>Get question from Database with Answer and image name: 	<br>
+	<a href="http://arkayapps.com/guessimagequiz/getquestionwithoptionbylevelid.php?levelid=">http://arkayapps.com/guessimagequiz/getquestionwithoptionbylevelid.php?levelid=</a>
+	</P>
+	
+	<p>
+	Here 1 means level no. if particular level question not found then it will return random question from database.
+	</p>
+	
+<b>Condition for getting questions:</b>	<br><br>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;Current version we have set following condition when read question from database or web:</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;1. Method provide level no for getting question</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;2. If min  question found then it will return question Array list.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>otherwise.</b></p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will get RANDOM question form all database.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;You can change this logic according you like.</p>
+</p> </hr>
+		<hr>		
+		<h3 id="javascript"><strong>C)Google Play Game Service:</strong> - <a href="#toc">top</a></h3>		
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is best feature on this app please do this step carefully also please understand what is game service, leaderboad, achievement etc..<br>
+        
+        	<ul>
+			<li><a href="#game">1.Getting start with Google Game Service </a></li>
+			<li><a href="#service">2.Setting Game service on Android Eclipse</a></li>
+			<li><a href="#Achievement">3.Create Achievement on Developed Console -> Game Services</a></li>
+			<li><a href="#Leaderboard">4.Create Leaderboard on Developed Console -> Game Services</a></li>	
+            <li><a href="#android">5.Link Game Service to android app on Developed Console -> Game Services. Create two one for test and one for live.</a></li>
+           	<li><a href="#xml">6.Get All Source code and copy into id.xml from  Developed Console -> Game Services</a></li>
+            <li><a href="#services">7.Add Test user id on game services Developed Console -> Game Services</a></li>
+			
+            	 
+		</ul>	
+        
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please read carefully about getting start with Game service and Setup Game service on Android app.</p>
+        
+        <p id="game"> <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Getting start with Google Game Service: </b></p>
+        <a href="https://developers.google.com/games/services/android/quickstart">https://developers.google.com/games/services/android/quickstart</a><br><br>
+        
+        <p id="service">  <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Setting Game service on Android Eclipse </b></p>
+        <a href="https://developers.google.com/games/services/android/quickstart#step_2_set_up_the_game_in_the_dev_console">https://developers.google.com/games/services/android/quickstart#step_2_set_up_the_game_in_the_dev_console</a><br><br>
+       
+    <p id="Achievement">  <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Create Achievement on Developed Console -> Game Services: </b></p>
+          <p>Before you do next step please create Game service  on Google Play Developer console and add Achievement and Leaderboard on Developer console.</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Achivmenet Look like this:</p>
+             <img src="assets/images/achievement.png"><br><br>
+             
+     <p id="Leaderboard"> <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Create Leaderboard on Developed Console -> Game Services </b></p>
+          <p>And leaderboard Look like this.</p>
+             <img src="assets/images/board.png"><br><br>
+             
+  <p id="android"> <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Link Game Service to android app on Developed Console -> Game Services. Create two one for test and one for live.</b><br>
+          <p>Now link you app to this game service.</p><br>
+              <img src="assets/images/linked.png"><br><br>
+              
+      <p id="xml"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Get All Source code and copy into id.xml from  Developed Console -> Game Services</b></p>
+          <p>Also copy Get Resource as following:</p><br>
+               <img src="assets/images/resourse.png"><br><br>
+          <p>on Click "Get Resource" it will look like below</p><br>              
+               <img src="assets/images/export.png"><br><br>
+           <p>copy this xml code and replace it on ids.xml file and save it. </p><br>
+           
+        <p id="services"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. Add Test user id on game services Developed Console -> Game Services</b></p>
+              <img src="assets/images/testing.png"><br><br></hr>
+			  
+		
+		
+
+              <br><br></hr>
+  <hr>    		
+<h3 id="psdFiles"><strong>D) For cloud storage please follow this step</strong> - <a href="#toc">top</a></h3>		
+		<p>1. On Google Play developed Console-> Game service-> Select Game-> Game Detail-> you can see there "API Console project"  click link below with project name.</p>		
+	    <p>2. It will be something like this : This game is linked to the API console project called <u>'App Name'</p> </u>		
+		<p>3. It will redirect to <a href="https://console.developers.google.com/">https://console.developers.google.com/</a></p>				
+		<p>4. Now click API & Auth->Apis</p>		
+		<p>5. Now Torn ON app below service it's free..</p> 
+        <img src="assets/images/api.png"><br><br>
+        <p>Now you almost work is done.</p>	</hr>
+       
+	   <hr>	
+		<h3 id="php"><strong>E) PHP Admin</strong> - <a href="#toc">top</a></h3>
+		 PHP admin it too simple just import database sql file and change config file parameter that's it. after completed that you can 
+		 add question on admin panel as follow. 
+		 <br><br>
+         <img src="assets/images/phpadmin.png"><br><br><br>
+		 After successfully add you can see as follwoing.
+         <img src="assets/images/phpadmin_1.png"><br>
+        <p></p>
+        </hr>			
+
+		<hr>	
+		<h3 id="php"><strong>F) Import project on Eclipse</strong> - <a href="#toc">top</a></h3>
+         <p id="video">&nbsp;&nbsp;&nbsp;&nbsp; Following video is help full to how how to import project on Eclipse
+		</p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<object width="420" height="315"
+			data="http://www.youtube.com/v/a0uXP_Fvdgk">
+		</object>
+        <p></p>
+        </hr>
+
+							
+
+	</div><!-- end div .container -->
+</body>
+</html>

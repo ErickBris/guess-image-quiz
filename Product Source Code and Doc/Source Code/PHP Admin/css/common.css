@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;	
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Default Styles 
+--------------------------------------------------------------------*/
+
+html,body {
+	background:#FFFFFF;
+	font-family: 'Droid Sans', sans-serif;
+	
+	margin:0;
+		padding:0;
+		height:100%;
+}
+
+.clearfix {
+	clear: both;
+}
+.wrap {	
+	width:70%;
+	margin: 1em auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;	
+	position:relative;
+}
+#content {
+width:100%;	
+/*padding:10px;*/
+padding-bottom:10px;
+padding-bottom:80px; /* Height of the footer element */
+}
+#footer {
+width:100%;
+height:80px;
+position:absolute;
+bottom:0;
+left:0;
+
+}
+.space1{
+	margin-bottom:10em;
+}
+.space2{
+	margin-bottom:5em;
+}
+.home{
+	color:#fb7f00;
+	font-size:24px;
+	padding-top:2em;	
+}
+.btnimage{
+	background: -webkit-gradient(linear, center top, center bottom, from(#f77500), to(#8c2c00));
+	background-image: linear-gradient(#f77500, #8c2c00);
+	border-radius: 6px;
+	border-color:#086800;
+	width:100px;
+	height:30px;
+	border:0px;
+	color:#FFFFFF;
+	font-size:14px;
+	text-decoration:none;
+	
+}
+.btngo{background: -webkit-gradient(linear, center top, center bottom, from(#f77500), to(#8c2c00));
+	background-image: linear-gradient(#f77500, #8c2c00);
+	border-radius: 6px;
+	border-color:#086800;
+	width:40px;
+	height:30px;
+	border:0px;
+	color:#FFFFFF;
+	font-size:14px;
+	text-decoration:none;
+	}
+.txtpage{width:200px!important;display:inline;}
+.btnspace{
+	margin-left:10.8em;
+}
+a{
+	text-decoration:none;
+}
+/*==================Add user=============================*/
+.frame{
+	margin-top:2em;
+	border:1px dotted #8c2c00;
+	border-radius:6px;
+	padding:10px;
+	padding-bottom:60px; /* Height of the footer element */
+
+}
+fieldset.frame legend {
+	 margin: 0; 
+  padding: 0; 
+  font-weight: bold; 
+  margin-left: 20px; 
+  color:#8c2c00;
+}
+
+.tbl{margin-left:5em;
+	margin-top:2em;
+}
+.control-label{
+	display:inline;	
+	width:150px;
+	float:left;
+	text-align:right;	
+	
+}
+.control-label2{
+	display:inline;	
+	width:150px;
+	float:left;
+	text-align:right;
+
+}
+
+.controls{display:inline;		
+	margin-left:1em;
+	vertical-align:middle;
+}
+.inner-frame{padding-bottom:1em;}
+
+label, button, input[type="text"], input[type="password"] {
+font-size: 14px;
+font-weight: normal;
+line-height: 20px;
+padding-left:0.5em;
+width:250px;
+}
+ input[type="text"].txtbox {
+font-size: 14px;
+font-weight: normal;
+line-height: 20px;
+/*padding-left:0.5em;*/
+width:100px;
+}
+select{
+	width:262px;
+
+}
+textarea#input01{
+	width: 252px;
+	height:90px;
+	border: 1px solid #cccccc;	
+}
+select{padding:0.2em;}
+ul.checkbox  { 
+  margin: 0; 
+  padding: 0; 
+  margin-left: 10px; 
+  list-style: none; 
+  font-size: 14px;
+} 
+
+ul.checkbox li input { 
+  margin-right: .25em; 
+} 
+
+ul.checkbox li { 
+  border: 1px transparent solid; 
+  display:inline-block;
+  width:8em;
+} 
+
+ul.checkbox li label { 
+/*  margin-left:"0.5em" ; */
+} 
+
+ul.checkbox li.focus  { 
+  background-color: lightyellow; 
+  border: 1px gray solid; 
+  width:15em; 
+} 
+/*==================list user=============================*/
+
+.count{
+	margin:2em 2em 0em; 
+	color:#666666;
+}
+.pagNumActive
+{
+	color:#FFFFFF;
+	font-weight:bold;
+	background:#8c2c00;
+}
+.pagenum{
+	border:#8c2c00 1px solid;
+	padding:0.1em 0.2em;
+	background:#f2f2f2;
+	color:#8c2c00;
+	}
+#paginationNumbers
+{
+	color:#666666;
+	
+}
+.centerno{color:#666666;}
+.link{color:#666666;
+text-decoration:none;
+}
+#srchMain{width:100%;padding-left:17em;}
+#leftpan,#rightpan{float:left;}
+#leftpan{width:60%;}
+#rightpan{width:40%;}
+.logo{
+
+width:200px;
+margin-left:-2px;
+}

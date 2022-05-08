@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+  <string name="app_id">116749636302</string>
+  <string name="achievement_beginner">CgkIzqXI9rIDEAIQAQ</string>
+  <string name="achievement_started">CgkIzqXI9rIDEAIQAg</string>
+  <string name="achievement_right_track">CgkIzqXI9rIDEAIQAw</string>
+  <string name="achievement_good_in_quiz">CgkIzqXI9rIDEAIQBA</string>
+  <string name="achievement_master_in_quiz">CgkIzqXI9rIDEAIQBQ</string>
+  <string name="achievement_expert_in_quiz">CgkIzqXI9rIDEAIQBg</string>
+  <string name="achievement_good_luck">CgkIzqXI9rIDEAIQBw</string>
+  <string name="achievement_fifty">CgkIzqXI9rIDEAIQCA</string>
+  <string name="achievement_hundred">CgkIzqXI9rIDEAIQCQ</string>
+  <string name="achievement_no_higher">CgkIzqXI9rIDEAIQCg</string>
+  <string name="achievement_curious">CgkIzqXI9rIDEAIQCw</string>
+  <string name="achievement_sadness">CgkIzqXI9rIDEAIQDA</string>
+  <string name="achievement_perfectionist">CgkIzqXI9rIDEAIQDQ</string>
+  <string name="achievement_fifty_qustions">CgkIzqXI9rIDEAIQDg</string>
+  <string name="achievement_century_qustions">CgkIzqXI9rIDEAIQDw</string>
+  <string name="achievement_sustained_questions">CgkIzqXI9rIDEAIQEA</string>
+  <string name="achievement_fifly_good_answer">CgkIzqXI9rIDEAIQEQ</string>
+  <string name="achievement_batter_and_batter">CgkIzqXI9rIDEAIQEg</string>
+  <string name="achievement_cool">CgkIzqXI9rIDEAIQEw</string>
+  <string name="achievement_very_good">CgkIzqXI9rIDEAIQFA</string>
+  <string name="achievement_fentastic">CgkIzqXI9rIDEAIQFQ</string>
+  <string name="achievement_phenomenal">CgkIzqXI9rIDEAIQFg</string>
+  <string name="achievement_perfect">CgkIzqXI9rIDEAIQFw</string>
+  <string name="leaderboard_guess_image_quiz">CgkIzqXI9rIDEAIQAA</string>
+</resources>

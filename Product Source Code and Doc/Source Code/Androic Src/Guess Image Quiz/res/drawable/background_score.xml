@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+   xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+               android:endColor="@android:color/white"
+               android:startColor="@android:color/white"
+               android:angle="270" />
+            <stroke
+               android:width="@dimen/button_border"
+               android:color="@color/White" />
+            <corners
+               android:radius="@dimen/background_redious" />
+            <padding
+               android:left="@dimen/button_peding"
+               android:top="@dimen/button_peding_half"
+               android:right="@dimen/button_peding"
+               android:bottom="@dimen/button_peding_half" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+               android:startColor="@android:color/white"
+               android:endColor="@android:color/white"
+               android:angle="270" />
+            <stroke
+               android:width="@dimen/button_border"
+               android:color="@color/White" />
+            <corners
+               android:radius="@dimen/background_redious" />
+            <padding
+               android:left="@dimen/button_peding"
+               android:top="@dimen/button_peding_half"
+               android:right="@dimen/button_peding"
+               android:bottom="@dimen/button_peding_half" />
+        </shape>
+    </item>
+
+  <item android:state_enabled="false">
+          <shape>
+            <gradient
+               android:startColor="@android:color/white"
+               android:endColor="@android:color/white"
+               android:angle="270" />
+            <stroke
+               android:width="@dimen/button_border"
+               android:color="@color/White" />
+            <corners
+               android:radius="@dimen/background_redious" />
+            <padding
+               android:left="@dimen/button_peding"
+               android:top="@dimen/button_peding_half"
+               android:right="@dimen/button_peding"
+               android:bottom="@dimen/button_peding_half" />
+        </shape>
+  </item>
+
+    <item>        
+        <shape>
+            <gradient
+               android:startColor="@color/question_background_color"
+               android:endColor="@color/question_background_color"
+               android:angle="270" />
+            <stroke
+               android:width="@dimen/button_border"
+               android:color="@color/question_tex_color" />
+            <corners
+               android:radius="@dimen/background_redious" />
+            <padding
+               android:left="@dimen/button_peding"
+               android:top="@dimen/button_peding_half"
+               android:right="@dimen/button_peding"
+               android:bottom="@dimen/button_peding_half" />
+        </shape>
+    </item>
+</selector>
